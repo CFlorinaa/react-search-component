@@ -4,9 +4,9 @@ A React Component allowing you to add a search bar — with its functionality en
 
 ### Technologies
 
--React
--HTML
--CSS
+  - React
+  - HTML
+  - CSS
 
 ### Features
 
@@ -50,13 +50,13 @@ Export by default the new custom functional class.
 
 run npm install in order to create the package-lock.json and the node_modules.
 Use the component like this: <Search/> with the following properties:
-  -onClick, 
-  -isVisible, 
-  -onChange, 
-  -placeHolderMessage, 
-  -value, 
-  -clearFunction, 
-  -clearButtonTitle
+  - onClick, 
+  - isVisible, 
+  - onChange, 
+  - placeHolderMessage, 
+  - value, 
+  - clearFunction, 
+  - clearButtonTitle
 
 Usage example:
   const [searchValue, setSearchValue] = useState("");
