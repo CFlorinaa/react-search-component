@@ -1,0 +1,43 @@
+.common-search-box {
+    position: relative;
+    display: inline-flex;
+
+    .search-text-input {
+        height: 26px;
+        width: 300px;
+        padding-right: 50px !important;
+        & input {
+            height: 32px;
+        }
+    }
+
+    .search-text-input::placeholder{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .search-buttons-box {
+        position: absolute;
+        right: 0;
+        flex-direction: row;
+
+        .search-close-btn {
+            span {
+                padding-right: 0;
+            }
+        }
+
+        .search-icon-btn {
+            span {
+                padding-left: 0;
+            }
+        }
+    }
+}
+
+.icon {
+    height: 18px;
+    width: 18px;
+    margin-top: 3px;
+}
